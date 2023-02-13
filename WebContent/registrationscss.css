@@ -1,0 +1,152 @@
+body {
+        background-image: url('pie.png');
+        background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      }
+      h2{
+        color:white;
+         font-family: Copperplate;
+    
+      }
+      table {
+
+margin: 20px;
+max-width: 400px;
+padding: 16px;
+background-color: white;
+}
+  label{
+        color:black;
+        font-size:18px;
+        font-family: Lucida Handwriting;
+    }
+  input[type=email],input[type=text], input[type=password] 
+  {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: black;
+
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 45%;
+}
+input[type=reset]{
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+a{
+  font-family:Lucida Handwriting;
+  color:white;
+}
+.button {
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: white;
+  text-align: center;
+  
+  padding: 14px 20px;
+   width: 45%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button1 {
+  border-radius: 4px;
+  background-color: white ;
+  border: none;
+  color: black;
+  text-align: center;
+  
+  padding: 14px 20px;
+   width: 20%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+input:focus{
+  color: white;
+  box-shadow: 0 0 5px rgba(0,255,0,.2),
+              inset 0 0 5px rgba(0,255,0,.1);
+  background: linear-gradient(#333933,#222922);
+  animation: glow .8s ease-out infinite alternate;
+}
+@keyframes glow {
+   0%{
+    border-color: #339933;
+    box-shadow: 0 0 5px rgba(1,1,1,1),
+                inset 0 0 5px rgba(1,1,1,1);
+  }
+   100%{
+    border-color: #6f6;
+    box-shadow: 0 0 20px rgba(1,1,1,1),
+                inset 0 0 10px rgba(1,1,1,1);
+  }
+}

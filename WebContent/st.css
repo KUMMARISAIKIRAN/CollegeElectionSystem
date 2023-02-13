@@ -1,0 +1,69 @@
+html,body{
+  
+ 
+  justify-content: center;
+  background-image:url('st1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+
+}
+
+
+.text{
+  font-size: 30px;
+  color: #c7c7c7;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.field input, button{
+  height: 50px;
+ 
+  outline: none;
+  font-size: 19px;
+  color: #868686;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #444;
+  caret-color: #339933;
+  background: linear-gradient(#333,#222);
+}
+
+ form {
+
+margin: 20px;
+max-width: 400px;
+padding: 50px;
+background-color: lightyellow;
+}
+button{
+  margin-top: 30px;
+  border-radius: 5px!important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+button:hover{
+  color: #339933;
+  border: 1px solid #339933;
+  box-shadow: 75 121 5px rgba(15,255,199,.3),
+              65 121 10px rgba(15,255,199,.2),
+              65 121 15px rgba(15,255,199,.1),
+              70 2px 0 blue;
+}
+h1{
+	font-family:"Lucida Handwriting";
+	color:white;
+    font-size: 75px;
+}
+label{
+	font-family:"Lucida Handwriting";
+	color:red;
+    font-size: 15px;
+}
+input=text{
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

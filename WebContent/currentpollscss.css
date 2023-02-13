@@ -1,0 +1,48 @@
+ html,body {
+
+        background-image: url('https://data.tooliphone.net/iskin/themes/81/154/lockscreen/lockscreen-464.jpeg');
+        background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: 100% 100%;
+      }
+      h1{
+			font-size:500%;
+			color:white;
+			font-family:Lucida Handwriting;
+		}
+		a{
+			text-align:left;
+		    color:white;
+			font-family:Lucida Handwriting;
+			 
+		}
+      h4{
+
+		font-size:15px;
+		color:white;
+		
+	}
+
+ li{
+   display: inline-block;
+   list-style: none;
+   margin: 10px 25px;
+}
+   ul button {
+   	font-family:Lucida Handwriting ;
+  color: green;
+  font-size: 1.0rem;
+  font-weight: 500;
+  border: 2px solid darkgreen;
+  width: 200px;
+  height: 32px;
+  border-radius: 11px;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+ hr
+ {
+ border-top: 5px solid green;  
+}

@@ -1,0 +1,32 @@
+html,body {
+
+        background-image: url('https://geekflare.com/wp-content/uploads/2019/11/color-palette-1200x385.jpg');
+        background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: 100% 100%;
+      }
+	input[type=text], input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+h2{
+ font-family:Lucida Handwriting;
+}
+
+button {
+  background-color: green;
+  color: white;
+ 
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+   padding: 14px 20px;
+}
+a{
+	font-family:Lucida Handwriting;
+}

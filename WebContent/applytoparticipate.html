@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<a href="Welcome_screen.html">Home</a> &nbsp&nbsp
+<html>
+
+<head>
+	<title>Application For Candidate</title>
+<link rel="stylesheet" href="applytocss.css">
+</head>
+<body>
+	
+  
+    <center><h2><b>Application for Candidate</b></h2>
+       <table>
+                  <form  name="f" action="applyvote.jsp" method="post">
+                       <tr>  
+                        <td>
+                           <label><b>Enter Your Name</b>&nbsp&nbsp&nbsp&nbsp</label>&nbsp&nbsp
+                           <input type=text required placeholder="Name" name=sname autofocus><br><br>
+                        
+                        <label><b>Enter Your Id Number : </b></label><input type=text required name=sid placeholder="Id Number"><br><br>
+                        <label><b>Choose ur Gender</b><br><br></label>
+                                     <input type=radio required name="gd" Value="male"><b>Male</b>
+                                     <input type=radio name="gd" Value="female"><b>Female</b>
+                                     <input type=radio name="gd" Value="others"><b>Others</b><br><br>
+                         
+                          
+                          <label><b>Select your Position:</b></label>
+  <select name="position" id="position">
+  <option>Select</option>
+    <option value="HOD">HOD</option>
+    <option value="FACULTY">Faculty</option>
+    <option value="STUDENT">Student</option>
+  </select><br><br>
+                      <label><b>Enter Your Email : </b></label><input type=text required name=semail placeholder="EMAIL"><br><br>
+               &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp         
+	<input type=submit >&nbsp&nbsp&nbsp&nbsp&nbsp<input type=reset>
+
+                        </td>
+                       </tr>
+                  </form>       
+                   </table>
+        <center></center>         
+</body>
+</html>

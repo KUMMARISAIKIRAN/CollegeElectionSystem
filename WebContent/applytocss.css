@@ -1,0 +1,21 @@
+
+body{
+  align-items: center;
+  justify-content: center;
+  background-image:url('fres.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+}
+h2{
+font-size:50px;
+color:white;
+ font-family: Italic;
+}
+b,a
+{
+	color:white;
+}
+
+

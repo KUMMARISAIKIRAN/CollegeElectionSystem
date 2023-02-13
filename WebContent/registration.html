@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>Registration</title>
+ <link rel="stylesheet" href="registrationscss.css">
+  <script>
+    
+    function validations()
+    {
+      
+      var rg=document.myform.passwd.value;
+         if(rg.length<9)
+        {
+          alert("Password Length Must be at least 9 Characters..")
+            return false;
+        }
+       else
+           alert("Registered Successfully");
+
+    }
+  </script>
+</head>
+<body>
+  <a href="Welcome_screen.html">Home</a>&nbsp&nbsp
+  <a href="Login.html">Login</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  
+  
+  <a href="applytoparticipate.html"><button class="button1"><span>Apply to Participate<span></button></a>
+    <center><h2><b>Sign Up</b></h2>
+       <table>
+                  <form name="myform" onsubmit="return validations()" action="Signup_servlet" method="post">
+                       <tr>  
+                        <td>
+                           <label><b>Enter Your First Name</b></label>&nbsp&nbsp
+                           <input type=text required placeholder="First Name" name="firstname" autofocus><br><br>
+                        <label><b>Enter Your Last Name</b></label>&nbsp&nbsp<input type=text name="lastname" required placeholder="Last Name"><br><br>
+                        <label><b>Enter Your Id Number</b></label><input type=text name="id" required placeholder="Id Number"><br><br>
+                        <label><b>Choose your Gender </b><br><br></label>
+                        
+                                     <input type=radio required name="gender" Value="male"><b>Male</b>
+                                     <input type=radio name="gender" Value="female"><b>Female</b>
+                                     <input type=radio name="gender" Value="others"><b>Others</b><br><br>
+                        
+                        <label><b>Enter Your Email</b></label>&nbsp&nbsp&nbsp<input type=email name="emailid" required placeholder="Email"  ><br><br>
+                        <label><b>Enter Your password</b></label>&nbsp&nbsp<input type=password name="password" required placeholder="Enter Password" ><br><br>
+                        <button class="button"><span>SUBMIT</span></button>&nbsp&nbsp&nbsp&nbsp&nbsp<input type=reset>
+                        </td>
+                       </tr>
+                  </form>       
+                   </table>
+        <center></center>         
+</body>
+</html>

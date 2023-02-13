@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="adminlogincss.css">
+	<title>Login</title>
+	<script>
+		function validation()
+		{
+			var ab=document.myform.id.value;
+			var xy=document.myform.password.value;
+		    if(ab=="" ||ab==null)
+		    {
+		    	alert("Id Cannot Be Empty");
+		    	return false;
+		    }
+		    else if(xy.length<4)
+		    {
+		    	alert("Password Length Must be at least 9 Characters..")
+		        return false;
+		    }
+		   else
+		   	   alert("Successfully Logged In");
+
+		}
+	</script>
+</head>
+<body>
+	<a href="Welcome_screen.html">Home</a>
+	 <center><h2>Login</h2>
+       
+                  <form name="myform" onsubmit="return validation()" action="ad" method=post>
+                  
+                  	<table>
+                       <tr>  
+                        <td><label><b>Username</b></label>
+    <input type="text" placeholder="Enter your Id" name="id" autofocus required><br><br>
+
+    <label><b>Password</b></label>&nbsp
+    <input type="password" placeholder="Enter Password" name="password" required><br><br>
+    <div class="content">
+          
+          </div>
+
+    </td>
+                       </tr>
+                   
+                         
+
+          </table>
+        
+    <button type="submit">Login</button><br><br>
+    <b>Create New Account</b>&nbsp&nbsp<a href="registration.html">Sign Up</a></center>
+            </form>
+</body>
+</html>

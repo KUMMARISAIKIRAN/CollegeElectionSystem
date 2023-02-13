@@ -1,0 +1,56 @@
+html,body{
+  
+ 
+  justify-content: center;
+  background-image:url('ho2.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+
+}
+
+
+.text{
+  font-size: 30px;
+  color: #c7c7c7;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.field input{
+  height: 50px;
+ 
+  outline: none;
+  font-size: 19px;
+  color: #868686;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #444;
+  caret-color: #339933;
+  background: linear-gradient(#333,#222);
+}
+
+ form {
+
+margin: 20px;
+max-width: 400px;
+padding: 50px;
+background-color: lightyellow;
+}
+
+
+h1{
+	font-family:"Lucida Handwriting";
+	color:blue;
+    font-size: 75px;
+}
+label{
+	font-family:"Lucida Handwriting";
+	color:red;
+    font-size: 15px;
+}
+input=text{
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

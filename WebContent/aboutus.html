@@ -1,0 +1,70 @@
+<html>
+<style>
+	 body {
+         background-image: url('cool-background.png');
+        background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      }   
+	h1{
+		font-size:50px;
+         color:blue;
+		font-family:Lucida Handwriting;
+	}
+	p{
+
+		
+		color:black;
+		
+	}
+	 a{
+
+	 	font-family:Lucida Handwriting;
+	 }
+.ml2 {
+  font-weight: 450;
+  font-size: 2em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+</style>
+<body>
+	
+		 <a href="Welcome_screen.html">Home</a>
+	
+<br><br>
+	<h1>ABOUT OUR SYSTEM</h1><br><br><br>
+<p class="ml2">Universities and colleges across the country must ordinarily conduct elections for the appointment of students to student representative bodies. These elections may be conducted in the manner prescribed here in, or in a manner that conforms to the standards prescribed way.
+	The union/representative body so elected shall only comprise of regular students on the rolls of the institution. No faculty member,nor any member of the administration shall be permitted to hold any post on the executive of such representative body.
+	Election will be held on our website</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script>
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.ml2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+	
+</body>
+</html>
